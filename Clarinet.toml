@@ -1,0 +1,29 @@
+[project]
+name = 'Art-Curation-and-Exhibition-Platform'
+description = ''
+authors = []
+telemetry = true
+cache_dir = './.cache'
+requirements = []
+[contracts.artwork-nft]
+path = 'contracts/artwork-nft.clar'
+clarity_version = 2
+epoch = 2.5
+
+[contracts.exhibition]
+path = 'contracts/exhibition.clar'
+clarity_version = 2
+epoch = 2.5
+
+[contracts.exhibition-access-token]
+path = 'contracts/exhibition-access-token.clar'
+clarity_version = 2
+epoch = 2.5
+[repl.analysis]
+passes = ['check_checker']
+
+[repl.analysis.check_checker]
+strict = false
+trusted_sender = false
+trusted_caller = false
+callee_filter = false
