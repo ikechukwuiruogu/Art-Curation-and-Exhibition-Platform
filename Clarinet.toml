@@ -10,6 +10,11 @@ path = 'contracts/artwork-nft.clar'
 clarity_version = 2
 epoch = 2.5
 
+[contracts.exhibition]
+path = 'contracts/exhibition.clar'
+clarity_version = 2
+epoch = 2.5
+
 [contracts.exhibition-access-token]
 path = 'contracts/exhibition-access-token.clar'
 clarity_version = 2
