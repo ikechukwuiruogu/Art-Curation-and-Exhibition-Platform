@@ -55,6 +55,11 @@ plan:
             path: contracts/artwork-nft.clar
             clarity-version: 2
         - emulated-contract-publish:
+            contract-name: exhibition
+            emulated-sender: ST1PQHQKV0RJXZFY1DGX8MNSNYVE3VGZJSRTPGZGM
+            path: contracts/exhibition.clar
+            clarity-version: 2
+        - emulated-contract-publish:
             contract-name: exhibition-access-token
             emulated-sender: ST1PQHQKV0RJXZFY1DGX8MNSNYVE3VGZJSRTPGZGM
             path: contracts/exhibition-access-token.clar
